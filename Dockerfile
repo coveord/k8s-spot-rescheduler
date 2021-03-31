@@ -1,6 +1,6 @@
 ARG VERSION=undefined
 
-FROM golang:1.15 AS builder
+FROM golang:1.16 AS builder
 ARG VERSION
 
 WORKDIR /k8s-spot-rescheduler
